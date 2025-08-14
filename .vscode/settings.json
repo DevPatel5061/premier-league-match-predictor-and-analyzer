@@ -3,7 +3,7 @@
         "."
     ],
     "java.project.referencedLibraries": [
-        "libs\\jsoup-1.18.3.jar"
+        "libs/jsoup-1.18.3.jar"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }

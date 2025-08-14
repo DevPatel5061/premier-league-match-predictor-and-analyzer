@@ -126,7 +126,7 @@ public abstract class BaseFeatures {
      * @return true if the season is valid, otherwise false
      */
     protected boolean isValidSeason(String season) {
-        List<String> validSeason = Arrays.asList("2024 2025", "2023 2024", "2022 2023", "2021 2022", "2020 2021",
+        List<String> validSeason = Arrays.asList("2025 2026", "2024 2025", "2023 2024", "2022 2023", "2021 2022", "2020 2021",
                 "2019 2020");
 
         return validSeason.contains(season);

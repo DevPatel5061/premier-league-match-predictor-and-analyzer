@@ -22,6 +22,7 @@ public class FixtureScraper {
         // The list of the URLs used for the data scraping
         List<String> urls = Arrays.asList(
                 "https://fbref.com/en/comps/9/schedule/Premier-League-Scores-and-Fixtures",
+                "https://fbref.com/en/comps/9/2024-2025/schedule/2024-2025-Premier-League-Scores-and-Fixtures",
                 "https://fbref.com/en/comps/9/2023-2024/schedule/2023-2024-Premier-League-Scores-and-Fixtures",
                 "https://fbref.com/en/comps/9/2022-2023/schedule/2022-2023-Premier-League-Scores-and-Fixtures",
                 "https://fbref.com/en/comps/9/2021-2022/schedule/2021-2022-Premier-League-Scores-and-Fixtures",
@@ -30,6 +31,7 @@ public class FixtureScraper {
 
         // The of the HTML ID needed to scrape the exact data needed
         List<String> tableIDs = Arrays.asList(
+                "sched_2025_2026_9_1",
                 "sched_2024-2025_9_1",
                 "sched_2023-2024_9_1",
                 "sched_2022-2023_9_1",

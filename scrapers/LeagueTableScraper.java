@@ -21,6 +21,7 @@ public class LeagueTableScraper {
         // The list of the URLs used for the data scraping
         List<String> urls = Arrays.asList(
                 "https://fbref.com/en/comps/9/Premier-League-Stats",
+                "https://fbref.com/en/comps/9/2024-2025/2024-2025-Premier-League-Stats",
                 "https://fbref.com/en/comps/9/2023-2024/2023-2024-Premier-League-Stats",
                 "https://fbref.com/en/comps/9/2022-2023/2022-2023-Premier-League-Stats",
                 "https://fbref.com/en/comps/9/2021-2022/2021-2022-Premier-League-Stats",
@@ -29,6 +30,7 @@ public class LeagueTableScraper {
 
         // The of the HTML ID needed to scrape the exact data needed
         List<String> tableIDs = Arrays.asList(
+            "results2025-202691_overall",
                 "results2024-202591_overall",
                 "results2023-202491_overall",
                 "results2022-202391_overall",
